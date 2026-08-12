@@ -297,11 +297,17 @@ contribution. Section 8 is what separates this from a blog post.
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism.*
 - Arthur, W. B. et al. (1997). Asset pricing under endogenous expectations in an artificial stock market.
 
-> **Verification note.** These are works the author of this note is confident
-> exist under these titles and venues, but volume, issue and page details have
-> not been checked against the originals. Verify every citation against the
-> published source before submission. Do not carry an unverified page number
-> into a manuscript.
+> **Verification note (updated 12 August 2026).** The list above is the working
+> shorthand and is now superseded by **[REFERENCES.md](REFERENCES.md)**, which
+> carries the verified form of every entry. All twenty were checked against
+> publisher or DOI-level records; none was removed, and ten needed correction.
+> Notably, Soros (1987) is cited in §3.3 above but was missing from this list
+> entirely, and Aaronson is dated here to the 2013 preprint rather than the 2016
+> published chapter. **Cite from REFERENCES.md, not from this section.**
+>
+> What has *not* been done: no claim in this note has been checked against what
+> its source actually says. Verifying that a work exists is not verifying that
+> it supports the argument made from it.
 
 ---
 

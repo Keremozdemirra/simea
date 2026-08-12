@@ -26,7 +26,7 @@ that test them, and the open problems.
 | | | Status |
 | --- | --- | --- |
 | [01 — SIMEA framework](papers/01-simea-framework) | The original statement of the model, its constructs and its welfare function | Draft |
-| [02 — Determinism and predictability](papers/02-determinism-and-predictability) | If determinism holds, does it follow that financial futures are predictable? Argues that it does not, and that predictability is instead a function of autonomy | Positioning note |
+| [02 — Determinism and predictability](papers/02-determinism-and-predictability) | If determinism holds, does it follow that financial futures are predictable? Argues that it does not, and that predictability is instead a function of autonomy | Positioning note; [bibliography verified](papers/02-determinism-and-predictability/REFERENCES.md) |
 
 `models/` holds the computational work supporting the papers. Empty until
 paper 02 reaches the simulation stage.
@@ -61,7 +61,11 @@ Everything here is work in progress and is published in that state
 deliberately. Drafts carry their own limitations sections, and the positioning
 note for paper 02 includes an explicit list of what would sink its argument.
 Citations in working documents are marked where they have not yet been verified
-against the original sources.
+against the original sources. Paper 02's bibliography has been through a
+verification pass and lives in
+[REFERENCES.md](papers/02-determinism-and-predictability/REFERENCES.md); that
+pass confirmed the works exist as cited and did **not** check that any of them
+says what the note claims it says, which is recorded there as outstanding.
 
 Corrections and objections are welcome via issues.
 
