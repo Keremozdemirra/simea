@@ -15,6 +15,12 @@ markets, is better understood as a variable that moves inversely with autonomy.
 
 - [POSITIONING.md](POSITIONING.md) — the argument, the literature it sits in,
   six testable propositions, and an explicit account of what would sink it.
+- [REFERENCES.md](REFERENCES.md) — the verified bibliography. Every work checked
+  against a publisher or DOI-level record; ten needed correction.
+- [SOURCE-CHECK.md](SOURCE-CHECK.md) — the substantive pass. Does each source
+  say what the note claims it says? Six of twenty works checked so far: four
+  claims held, two failed. Both failures were in the note's treatment of Popper
+  and Samuelson and are corrected in POSITIONING.md.
 
 ## Where it stands
 

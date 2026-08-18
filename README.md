@@ -26,7 +26,7 @@ that test them, and the open problems.
 | | | Status |
 | --- | --- | --- |
 | [01 — SIMEA framework](papers/01-simea-framework) | The original statement of the model, its constructs and its welfare function | Draft |
-| [02 — Determinism and predictability](papers/02-determinism-and-predictability) | If determinism holds, does it follow that financial futures are predictable? Argues that it does not, and that predictability is instead a function of autonomy | Positioning note; [bibliography verified](papers/02-determinism-and-predictability/REFERENCES.md) |
+| [02 — Determinism and predictability](papers/02-determinism-and-predictability) | If determinism holds, does it follow that financial futures are predictable? Argues that it does not, and that predictability is instead a function of autonomy | Positioning note; [bibliography verified](papers/02-determinism-and-predictability/REFERENCES.md), [sources checked in part](papers/02-determinism-and-predictability/SOURCE-CHECK.md) |
 
 `models/` holds the computational work supporting the papers. Empty until
 paper 02 reaches the simulation stage.
@@ -52,8 +52,11 @@ That trade is the subject of the programme.
    unpredictable price. Whether the trade-off survives aggregation is unresolved
    and may bound the whole claim.
 3. **Distinguishing SIMEA from adaptive-markets accounts.** Both make efficiency
-   variable. SIMEA locates the variation in who is steering whom; that
-   distinction needs to be made sharp enough to be tested.
+   variable. The obvious contrast — steering versus evolutionary fitness — does
+   not hold, because Lo's adaptive markets hypothesis is itself built on Simon's
+   bounded rationality. What remains is that Lo's agents adapt to an
+   environment while SIMEA's are steered by an interested party, and that has to
+   be made sharp enough to be tested.
 
 ## Status and how to read this
 
@@ -64,8 +67,11 @@ Citations in working documents are marked where they have not yet been verified
 against the original sources. Paper 02's bibliography has been through a
 verification pass and lives in
 [REFERENCES.md](papers/02-determinism-and-predictability/REFERENCES.md); that
-pass confirmed the works exist as cited and did **not** check that any of them
-says what the note claims it says, which is recorded there as outstanding.
+pass confirmed the works exist as cited. A second pass,
+[SOURCE-CHECK.md](papers/02-determinism-and-predictability/SOURCE-CHECK.md),
+asks whether each source says what the note claims it says. Six of the twenty
+works have been through it; two claims failed and are corrected in the note.
+Fourteen remain unchecked, and the file says which.
 
 Corrections and objections are welcome via issues.
 

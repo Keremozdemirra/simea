@@ -26,6 +26,11 @@ has not been done.
   New York: Wiley, 1902.
 - **Lorenz, E. N. (1963).** Deterministic nonperiodic flow. *Journal of the
   Atmospheric Sciences*, 20(2), 130–141.
+- **Lorenz, E. N. (1965).** A study of the predictability of a 28-variable
+  atmospheric model. *Tellus*, 17(3), 321–333.
+  DOI 10.1111/j.2153-3490.1965.tb01424.x. Added 18 August 2026: the 1963 paper
+  establishes instability, not a rate. Error-doubling times and the
+  circulation-dependent predictability horizon are here.
 - **Popper, K. R. (1950).** Indeterminism in quantum physics and in classical
   physics. Published in two parts: Part I, *The British Journal for the
   Philosophy of Science*, 1(2), 117–133; Part II, 1(3), 173–195.
@@ -132,10 +137,19 @@ citations are needed before drafting.
 
 ## 4. Still outstanding
 
-- **No claim in the note has been checked against what its source actually
-  says.** This pass verified that the works exist as cited, nothing more. The
-  substantive check — does Samuelson (1965) prove what §3.1 says it proves,
-  does Wolfram's irreducibility conjecture bear the weight §2.3 puts on it —
-  is a separate pass and has not started.
-- **Page-level citations are missing throughout.** Adequate for a positioning
-  note; not adequate for a manuscript.
+**Updated 18 August 2026.** The substantive pass has started and is written up
+in **[SOURCE-CHECK.md](SOURCE-CHECK.md)**. Six of the twenty works were checked
+against primary text; four claims held and two did not, and page-level citations
+for everything checked are recorded there. Fourteen works remain unchecked
+substantively — including Laplace, Fama, Lucas, Soros, Aaronson and the whole
+agency-and-influence section — and Samuelson (1965) was reached through
+secondary literature rather than at source.
+
+Two items from this pass are unchanged by it:
+
+- **Aaronson is still unpinned.** §3 above flags that §2.4 asks one
+  hundred-page chapter to support two distinct claims. SOURCE-CHECK.md could not
+  resolve it either; the chapter has not been read.
+- **Page-level citations remain incomplete.** Eleven are now established
+  (SOURCE-CHECK.md §4). The rest are not. Adequate for a positioning note; not
+  adequate for a manuscript.

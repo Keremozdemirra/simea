@@ -60,12 +60,18 @@ probability in human ignorance, not in the world.
 
 ### 2.2 Sensitive dependence (chaos)
 
-Lorenz (1963) established that a fully deterministic system of three ordinary
-differential equations produces trajectories that diverge exponentially from
-arbitrarily close initial conditions. With finite measurement precision — and
-measurement precision is always finite — prediction error grows exponentially
-in the forecast horizon. Determinism is untouched; predictability collapses at
-a finite horizon.
+Lorenz (1963, pp. 130, 141) established that a fully deterministic system of
+three ordinary differential equations produces bounded nonperiodic trajectories
+that are unstable under arbitrarily small modifications of the initial state,
+and concluded that "prediction of the sufficiently distant future is impossible
+by any method, unless the present conditions are known exactly" (p. 141). With
+finite measurement precision — and measurement precision is always finite —
+predictability collapses at a finite horizon. Determinism is untouched.
+
+The *rate* is a separate citation: Lorenz (1963) shows instability, not an
+exponent. Lorenz (1965) supplies the quantitative version, with error-doubling
+times on the order of days and a predictability horizon that varies with the
+circulation pattern. Cite 1963 for the result and 1965 for the rate.
 
 For the paper, the relevant move is that this is not an argument about
 complexity or about markets being "messy." It is a proof that D does not imply
@@ -73,25 +79,60 @@ P even for a three-variable system that a first-year student can write down.
 
 ### 2.3 Computational irreducibility
 
-Wolfram (2002) argues that for a broad class of deterministic systems there
-exists no computational shortcut to the state at step *n*: the fastest way to
-know the outcome is to run the system. If a market is computationally
-irreducible in this sense, then the cheapest complete forecast of tomorrow
-costs one day.
+Wolfram (2002, ch. 12 §6, pp. 737–750) argues that for a broad class of
+deterministic systems there exists no computational shortcut to the state at
+step *n*: the fastest way to know the outcome is to run the system. If a market
+is computationally irreducible in this sense, then the cheapest complete
+forecast of tomorrow costs one day. Wolfram makes the move to markets himself in
+ch. 8 §8, pp. 429–432, and the paper should engage that rather than leave a
+referee to find it.
 
-This argument is weaker than the chaos argument — irreducibility is a
-conjecture supported by examples rather than a theorem about markets — and the
+This argument is weaker than the chaos argument — irreducibility rests on the
+Principle of Computational Equivalence (ch. 12 §§2–4, pp. 716–734), which
+Wolfram presents as a principle supported by examples rather than a theorem —
+and the
 paper should present it as suggestive rather than load-bearing. It earns its
 place because it survives the objection "but with enough compute": no amount of
 compute buys a shortcut that does not exist.
 
 ### 2.4 Self-prediction
 
-Popper (1950) argued that a predictor which is part of the system it predicts
-cannot in general predict that system, because a complete prediction would have
-to include a prediction of its own future predictions, and the required
-self-reference generates the familiar undecidability. This argument is
-independent of chaos: it bites even for systems that are perfectly stable.
+Popper (1950, Part I) argued that a predictor which is part of the system it
+predicts cannot in general predict that system: it cannot obtain up-to-date
+information about its own state, because obtaining it alters that state, and so
+"no member of such a society can fully predict the future states of that
+society, or those of any of its members" (p. 118).
+
+Two things about this argument are easy to get wrong and were got wrong in
+earlier drafts of this note.
+
+*It is a physical claim, not a logical one.* Popper is explicit: "The
+impossibility asserted is therefore a physical impossibility — that of
+successfully carrying out certain physical operations involved in obtaining
+predictions in accordance with the methods of science" (p. 118). His predictor
+is a machine subject to mechanics, not a formal system, and he separates the
+result from Bohr's complementarity (p. 119). Reading it as an undecidability
+result invites the objection that formal systems can be built to avoid
+self-reference, which is not the obstruction he identifies.
+
+*It is not independent of §2.2.* The mechanism is the breakdown of a "one-way
+membrane" between predictor and predicted, and that breakdown requires both
+sides to amplify: "a predictor B must be an amplifier simply because some small
+differences in the system A may become amplified in A itself in the course of
+time" (p. 129). Sensitive dependence is doing work here. Popper suspects the
+amplification requirement holds for recording alone and would then be
+independent — but marks it as a belief, not a result (p. 129 n. 1). The claim of
+independence rests on the self-prediction theorem of §8 and Part II, which this
+note has not yet read.
+
+One further caution about recruiting Popper. His conclusion is *indeterminism*:
+classical mechanics, he argues, is inconsistent with the finite deterministic
+doctrine. That is compatible with this paper's conditional thesis only because
+his target is scientific determinism — determinism read as predictability by the
+methods of science (p. 124) — and not the metaphysical doctrine, which he holds
+untestable and declines to refute (pp. 121–122). That separation is precisely
+the D/P distinction of §1, and §1 should cite it as precedent rather than
+present it as new.
 
 Aaronson (2013) revisits related territory from computational complexity, and
 is worth reading for the care with which he separates what indeterminism could
@@ -110,12 +151,21 @@ becomes economics.
 
 ### 3.1 A forecast, once acted on, alters what it forecasts
 
-Samuelson (1965) proved that properly anticipated prices fluctuate randomly:
+Samuelson (1965) proved that properly anticipated prices form a **martingale**:
 if a price movement is foreseen, it is transacted immediately, and the
 foreseeable component vanishes from the future path into the present price.
 Predictability in markets is *self-consuming* in a way that predictability of
 the weather is not. Knowing tomorrow's rainfall does not change tomorrow's
 rainfall.
+
+The paper's title says "fluctuate randomly" and the paper should not repeat it.
+A martingale restricts the conditional mean and nothing else — not independence,
+not identical distribution, not constant variance. Volatility is forecastable
+inside the theorem, and a great deal of quantitative finance lives in exactly
+that gap. Stating the result as a martingale property is also the honest
+version: Samuelson did not regard the unpredictability of price changes as a
+good test of the theory, which is a point on this paper's side, since it is the
+P/F distinction of §1 arriving sixty years early.
 
 This is the single most important structural point in the paper. It converts
 the question from "can we know enough?" to "can a fact about the future survive
@@ -123,11 +173,19 @@ being known?"
 
 ### 3.2 The impossibility of informationally efficient markets
 
-Grossman and Stiglitz (1980) close the loop. If prices fully reflected all
-information, no agent would have an incentive to bear the cost of acquiring
+Grossman and Stiglitz (1980, p. 393) close the loop. If prices fully reflected
+all information, no agent would have an incentive to bear the cost of acquiring
 information; but then no one would acquire it, and prices could not reflect it.
-Perfect predictability is not merely unattainable — it is *self-refuting*, an
-equilibrium that destroys its own preconditions.
+What the market settles at instead is "an equilibrium degree of disequilibrium",
+in which prices aggregate private information only partially — "this is perhaps
+lucky, for were it to do it perfectly, an equilibrium would not exist."
+
+Note the gap the paper has to bridge rather than step over. Grossman–Stiglitz is
+a result about *informational efficiency*, not about forecastability: a price
+system can fail to aggregate information and still be hard to predict. The
+argument that perfect informational efficiency is self-refuting does not by
+itself deliver the claim that perfect predictability is self-refuting. Either
+that bridge is built or the section narrows its claim.
 
 Fama (1970) provides the efficient-markets framing that Grossman–Stiglitz
 undercuts, and should be treated as the position being qualified rather than a
@@ -153,8 +211,11 @@ agents whose behaviour generated the relationship will re-optimise. Any
 forecasting model that succeeds becomes part of the environment its subjects
 respond to.
 
-Timmermann and Granger (2004) work through the practical consequence: exploited
-predictability decays, so a forecasting edge is a depreciating asset.
+Timmermann and Granger (2004) work through the practical consequence: stable
+forecasting patterns "will self-destruct when discovered by a large number of
+investors", so a forecasting edge is a depreciating asset. Proposition 2 in §4.1
+must be stated against this, not alongside it — the erosion mechanism is already
+theirs, and what is left to claim is the escalation response.
 
 ---
 
@@ -234,11 +295,18 @@ Written honestly, this section is what makes the paper credible.
 - **Measuring autonomy is unsolved.** *AT* is currently a construct, not an
   instrument. Without an operational measure Propositions 3–5 cannot be taken to
   data, and building that measure may be a paper of its own.
-- **Adaptive markets may already cover this.** Lo (2004) frames efficiency as
-  varying with the ecology of participants. The distinction to defend: SIMEA
-  locates the variation in *who is steering whom*, not in evolutionary fitness.
-  If that distinction cannot be made sharp, the contribution collapses into an
-  existing framework.
+- **Adaptive markets may already cover this, and the planned escape does not
+  work.** Lo (2004) frames efficiency as varying with the ecology of
+  participants. The distinction previously proposed here — that SIMEA locates
+  variation in *who is steering whom* rather than in evolutionary fitness —
+  contrasts against a version of Lo that does not exist: AMH is built by
+  extending Simon's satisficing with evolutionary dynamics, and absorbs the
+  behavioural anomalies as adaptive heuristics. It is already a
+  bounded-rationality framework. A distinction is still available — Lo's agents
+  adapt to an *environment*, SIMEA's are steered by an *interested party* with
+  its own objective function — but it must be made on that axis and must survive
+  the reply that a recommender system is a plausible environment. If it cannot,
+  the contribution collapses into an existing framework.
 - **Determinism may be doing no work at all.** A reasonable referee will ask
   whether the metaphysical premise is load-bearing or decorative. One honest
   answer is that it is a framing device — the paper's real subject is the
@@ -297,17 +365,23 @@ contribution. Section 8 is what separates this from a blog post.
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism.*
 - Arthur, W. B. et al. (1997). Asset pricing under endogenous expectations in an artificial stock market.
 
-> **Verification note (updated 12 August 2026).** The list above is the working
-> shorthand and is now superseded by **[REFERENCES.md](REFERENCES.md)**, which
+> **Verification note (updated 18 August 2026).** The list above is the working
+> shorthand and is superseded by **[REFERENCES.md](REFERENCES.md)**, which
 > carries the verified form of every entry. All twenty were checked against
 > publisher or DOI-level records; none was removed, and ten needed correction.
 > Notably, Soros (1987) is cited in §3.3 above but was missing from this list
 > entirely, and Aaronson is dated here to the 2013 preprint rather than the 2016
 > published chapter. **Cite from REFERENCES.md, not from this section.**
 >
-> What has *not* been done: no claim in this note has been checked against what
-> its source actually says. Verifying that a work exists is not verifying that
-> it supports the argument made from it.
+> A second pass, **[SOURCE-CHECK.md](SOURCE-CHECK.md)**, asks whether each source
+> says what this note claims it says. Six works were checked; four claims held
+> and two did not. §2.4 misdescribed Popper's argument as logical when he calls
+> it physical, and asserted an independence from chaos that his own text does not
+> support; §3.1 called a martingale theorem a randomness result. Both are
+> corrected above. Lorenz (1965) is added for the error-growth rate.
+>
+> Fourteen works remain unchecked substantively, including all of the agency and
+> influence section. SOURCE-CHECK.md §5 lists them.
 
 ---
 
