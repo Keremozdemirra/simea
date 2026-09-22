@@ -75,6 +75,10 @@ Fourteen remain unchecked, and the file says which.
 
 Corrections and objections are welcome via issues.
 
+## On the site
+
+The runnable simulations from this work (segregation, diffusion, jam, pile, recommender) are at [keremozdemir.de/work/simulations](https://keremozdemir.de/work/simulations/), and the notes at [keremozdemir.de/notes/simea](https://keremozdemir.de/notes/simea/).
+
 ## Licence
 
 Written material CC BY 4.0; code MIT. See [LICENSE](LICENSE).
