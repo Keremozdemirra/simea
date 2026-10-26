@@ -46,8 +46,8 @@ That trade is the subject of the programme.
 
 ## Open problems
 
-1. **Operationalising *AT*.** The Autonomy Threshold is a construct, not yet an
-   instrument. Most of the empirical work in paper 02 is blocked on it.
+1. **Operationalising *AT*.** The Autonomy Threshold is still a construct, with no
+   instrument to measure it yet. Most of the empirical work in paper 02 is blocked on it.
 2. **Aggregation.** Individually steered agents may still aggregate to an
    unpredictable price. Whether the trade-off survives aggregation is unresolved
    and may bound the whole claim.
