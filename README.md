@@ -1,10 +1,10 @@
-# SIMEA — Systemic Influence Model of Economic Agency
+# SIMEA: Systemic Influence Model of Economic Agency
 
 Classical economics modelled the agent as a rational utility-maximiser.
 Behavioural economics kept the maximiser and added the ways it fails. SIMEA
 proposes a different starting point: the agent is a **decision-subject**,
-embedded in and steered by systems — algorithms, platforms, recommender
-architectures, social infrastructure — rather than an optimiser operating on
+embedded in and steered by systems (algorithms, platforms, recommender
+architectures, social infrastructure) rather than an optimiser operating on
 its own preferences.
 
 The framework introduces three constructs:
@@ -25,8 +25,8 @@ that test them, and the open problems.
 
 | | | Status |
 | --- | --- | --- |
-| [01 — SIMEA framework](papers/01-simea-framework) | The original statement of the model, its constructs and its welfare function | Draft |
-| [02 — Determinism and predictability](papers/02-determinism-and-predictability) | If determinism holds, does it follow that financial futures are predictable? Argues that it does not, and that predictability is instead a function of autonomy | Positioning note; [bibliography verified](papers/02-determinism-and-predictability/REFERENCES.md), [sources checked in part](papers/02-determinism-and-predictability/SOURCE-CHECK.md) |
+| [01: SIMEA framework](papers/01-simea-framework) | The original statement of the model, its constructs and its welfare function | Draft |
+| [02: Determinism and predictability](papers/02-determinism-and-predictability) | If determinism holds, does it follow that financial futures are predictable? Argues that it does not, and that predictability is instead a function of autonomy | Positioning note; [bibliography verified](papers/02-determinism-and-predictability/REFERENCES.md), [sources checked in part](papers/02-determinism-and-predictability/SOURCE-CHECK.md) |
 
 `models/` holds the computational work supporting the papers. Empty until
 paper 02 reaches the simulation stage.
@@ -52,7 +52,7 @@ That trade is the subject of the programme.
    unpredictable price. Whether the trade-off survives aggregation is unresolved
    and may bound the whole claim.
 3. **Distinguishing SIMEA from adaptive-markets accounts.** Both make efficiency
-   variable. The obvious contrast — steering versus evolutionary fitness — does
+   variable. The obvious contrast (steering versus evolutionary fitness) does
    not hold, because Lo's adaptive markets hypothesis is itself built on Simon's
    bounded rationality. What remains is that Lo's agents adapt to an
    environment while SIMEA's are steered by an interested party, and that has to
